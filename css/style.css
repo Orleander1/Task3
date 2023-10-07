@@ -1,0 +1,50 @@
+/*Alexander Dimitri Iwanowski - 8932811*/
+
+body{
+    font: normal normal normal 12px/1.5 'Courier New', Courier, monospace;
+    width : 100vw;
+    height : 100vh;
+    background-color: hsla(240, 8%, 95%, 0.5);
+}
+
+h2{
+    color: #f02;
+    font-size: 2em;
+}
+header{
+    background-color : hsl(41, 75%, 67%);
+}
+main{
+    background-color : hsl(41, 100%, 83%);
+    float : left;
+    height : 40vh;
+    width : 65vw;
+}
+aside{
+    background-color : hsl(40, 96%, 67%);
+    float : right;
+    height : 40vh;
+    width : 25vw;
+}
+footer{
+    background-color : hsl(42, 100%, 52%);
+    clear : both;
+}
+.structural{
+    margin : 10px;
+    padding : 10px;
+    border : 2px solid black;
+}
+#para1{
+    color : rgb(212, 165, 77);
+}
+#para2{
+    color : rgb(222, 153, 25);
+}
+a:hover{
+    color : #f02;
+}
+footer p{
+    font-size: .75em;
+}
+
