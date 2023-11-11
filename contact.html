@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Document</title>
+
+</head>
+<body>
+
+    <header class="structural"> 
+        <h1> Task 1</h1>
+    </header>
+
+    <nav class="structural">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="structural">
+        <h2>Contact</h2>
+        <form>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required autofocus>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <fieldset>
+                <legend>What section of Prog1245 are you in?</legend>
+                <input type="radio" name="sec" id="4" value="4">
+                <label for="4">Section 4</label>
+                <br>
+                <input type="radio" name="sec" id="5" value="5">
+                <label for="5">Section 5</label>
+                <br>
+                <input type="radio" name="sec" id="8" value="8" checked>
+                <label for="8">Section 8</label>
+                <br>
+            </fieldset>
+
+            <div>
+                <label for="help">What do you need help with?</label>
+                <select id="help" name="help" required>
+                    <option value=""selected>Select</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="both">Both</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="comment">Comments</label>
+                <textarea name="comment" id="comment" rows="4"required></textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" value="true" name="human" id="human" required>
+                <label for="human">I am a human</label>
+            </div>
+
+            <div>
+                <input type="submit" id="submit" id="Submit" required>
+            </div>
+
+        </form>
+    </main>
+
+    <aside class="structural">
+        <h2>Css Help Links</h2>
+        <ul>
+        <li><a href="https://barking.ca/">Barking Dog Studios</a></li>
+        <li><a href="https://www.blacklab.beer/">Black Lab</a></li>
+        </ul>  
+    </aside>
+
+    <footer class="structural">
+        <p>
+            &copy; Alexander Iwanowski 2023
+        </p>
+    </footer>
+   
+</body>
+</html>
