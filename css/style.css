@@ -79,7 +79,7 @@ footer{
 }
 form{
     border: 2em dashed red;
-    padding: 0.em;
+    padding: 0.1em;
 }
 input[type=text], input[type=email], input[type=submit], select, option{
     display : block;
